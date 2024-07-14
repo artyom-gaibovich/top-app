@@ -1,11 +1,13 @@
-import {Inter} from "next/font/google";
 import {Htag} from "@/components/Htag/Htag";
+import {Button} from "@/components/Button/Button";
 
 
 export default function Home() {
   return (
-    <div>
-      <Htag tag='h1'>tТекст</Htag>
-    </div>
+    <>
+      <Htag tag='h3'>Текст</Htag>
+        <Button appearance="primary" arrow="right">Some data</Button>
+        <Button appearance="ghost">Some data</Button>
+    </>
   );
 }
