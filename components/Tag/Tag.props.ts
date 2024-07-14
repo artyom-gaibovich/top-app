@@ -4,5 +4,5 @@ export interface TagProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElemen
     size?: 's' | 'm' | 'l';
     children: ReactNode;
     color: 'ghost' | 'red' | 'grey' | 'green' | 'primary'
-    href: string;
+    href?: string;
 }

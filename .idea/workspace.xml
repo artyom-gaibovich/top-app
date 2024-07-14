@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec92277-02c7-46d9-a5bd-a8ffb4b28824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Ptag/Ptag.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Ptag/Ptag.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Ptag/Ptag.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Tag/Tag.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Tag/Tag.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Tag/Tag.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Tag/Tag.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tag/Tag.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Tag/Tag.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tag/Tag.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Tag/Tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tag/Tag.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "features/task1__connect__swg",
+    "git-widget-placeholder": "features/task2__make__components",
     "js.linters.configure.manually.selectedeslint": "true",
     "last_opened_file_path": "/home/artyom/WebstormProjects/top-app/components/Tag",
     "node.js.detected.package.eslint": "true",
@@ -125,7 +118,7 @@
       <workItem from="1720940056398" duration="2257000" />
       <workItem from="1720951196158" duration="10236000" />
       <workItem from="1720961447175" duration="1429000" />
-      <workItem from="1720963671232" duration="1698000" />
+      <workItem from="1720963671232" duration="2802000" />
     </task>
     <servers />
   </component>
