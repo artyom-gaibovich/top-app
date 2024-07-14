@@ -1,7 +1,6 @@
 import {ButtonProps} from "@/components/Button/Button.props";
 import styles from './Button.module.css';
 import cn from "classnames";
-import ArrowIcon  from './Vector.svg';
 export const Button = ({appearance, arrow = 'none', children, ...props} : ButtonProps ): JSX.Element => {
     return (
         <button
@@ -16,7 +15,6 @@ export const Button = ({appearance, arrow = 'none', children, ...props} : Button
                 [styles.down] : arrow == 'down',
                 [styles.right] : arrow == 'right',
             }) }>
-                <ArrowIcon></ArrowIcon>
             </span>}
         </button>
     );
