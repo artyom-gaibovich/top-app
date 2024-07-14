@@ -1,0 +1,7 @@
+.star {
+    fill: #bbb4b4;
+    margin-right: 5px;
+}
+.filled {
+    fill : var(--primary)
+}
