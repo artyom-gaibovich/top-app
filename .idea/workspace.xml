@@ -5,20 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec92277-02c7-46d9-a5bd-a8ffb4b28824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Rating/Rating.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Rating/Rating.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Rating/Rating.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Layout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Layout.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Footer/Footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Footer/Footer.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Header/Header.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Rating/Rating.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "features/task3__make__functional__components",
+    "git-widget-placeholder": "features/task4__make__layout__components",
     "js.linters.configure.manually.selectedeslint": "true",
     "last_opened_file_path": "/home/artyom/WebstormProjects/top-app/layout",
     "node.js.detected.package.eslint": "true",
@@ -83,10 +86,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/layout" />
+      <recent name="$PROJECT_DIR$/layout/SIdebar" />
       <recent name="$PROJECT_DIR$/components/Rating" />
       <recent name="$PROJECT_DIR$/components/Tag" />
       <recent name="$PROJECT_DIR$/components/Parapgraph" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tmp" />

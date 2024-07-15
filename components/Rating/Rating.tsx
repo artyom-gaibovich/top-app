@@ -18,8 +18,8 @@ export const Rating = ({isEditable = false, rating,  setRating, children,...prop
                 onMouseEnter={() => changeDisplay(i + 1)}
                 onMouseLeave={() => changeDisplay(rating)}
                 onClick={() => onClick(i+1)}
-            />;
-        });
+            />
+        })
         setRatingArray(updatedArray);
     };
 

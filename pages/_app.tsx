@@ -12,8 +12,8 @@ export default function App({ Component, pageProps }: AppProps) {
           <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
     </Head>
         <div style={{marginTop:"20px"}}></div>
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
   </>
-  );
+  )
 
 }
