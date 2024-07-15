@@ -3,11 +3,12 @@ import cn from "classnames";
 import {RatingProps} from "@/components/Rating/Rating.props";
 import {useEffect, useState} from "react";
 import { FaStar } from "react-icons/fa";
-export const Rating = ({isEditable = false, rating,  setRating, children,...props} : RatingProps): JSX.Element => {
+export const Rating = ({isEditable = false, rating,  setRating, children, ...props} : RatingProps): JSX.Element => {
     const [ratingArray, setRatingArray ] = useState<JSX.Element[]>(new Array(5).fill(<></>));
 
     useEffect(() => {
         constructRating(rating);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [rating]);
     const constructRating = (currentRating:  number) => {
         const updatedArray = ratingArray.map((r: JSX.Element, i: number) => {
@@ -18,8 +19,8 @@ export const Rating = ({isEditable = false, rating,  setRating, children,...prop
                 onMouseEnter={() => changeDisplay(i + 1)}
                 onMouseLeave={() => changeDisplay(rating)}
                 onClick={() => onClick(i+1)}
-            />
-        })
+            />;
+        });
         setRatingArray(updatedArray);
     };
 
@@ -41,6 +42,7 @@ export const Rating = ({isEditable = false, rating,  setRating, children,...prop
     return (
         <div {...props}>
             {ratingArray.map((r,i) => (<span key={i}>{r}</span>))}
+            {children}
         </div>
     );
 

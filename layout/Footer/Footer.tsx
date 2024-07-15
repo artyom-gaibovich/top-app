@@ -2,8 +2,9 @@ import {HeaderProps} from "@/layout/Header/Header.props";
 import styles from './Footer.module.css';
 import cn from "classnames";
 import {format} from 'date-fns';
+import {FooterProps} from "@/layout/Footer/Footer.props";
 
-export const Footer = ({className, ...props} : HeaderProps): JSX.Element => {
+export const Footer = ({className, ...props} : FooterProps): JSX.Element => {
     return (
         <footer className={cn(className, styles.footer)}
             {...props}>
