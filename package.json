@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
     "axios": "^1.7.2",
     "classnames": "^2.5.1",
     "date-fns": "^3.6.0",

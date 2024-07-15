@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec92277-02c7-46d9-a5bd-a8ffb4b28824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/layout/Footer/Footer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Footer/Footer.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Header/Header.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/menu.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/page.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/product.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/courses/[alias].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Rating/Rating.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Rating/Rating.props.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Rating/Rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Footer/Footer.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Footer/Footer.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Header/Header.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Header/Header.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Layout.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.props.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
@@ -65,7 +64,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "features/task4__make__layout__components",
+    "git-widget-placeholder": "features/task5__make__statis__props",
     "js.linters.configure.manually.selectedeslint": "true",
     "last_opened_file_path": "/home/artyom/WebstormProjects/top-app/layout",
     "node.js.detected.package.eslint": "true",
@@ -95,12 +94,25 @@
       <recent name="$PROJECT_DIR$/tmp" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.stylelint">
+  <component name="RunManager" selected="Node.js.utils.js">
+    <configuration name="utils.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/node_modules/next/dist/build/utils.js" working-dir="$PROJECT_DIR$/node_modules/next/dist/build">
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -118,6 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.utils.js" />
+        <item itemvalue="npm.lint" />
         <item itemvalue="npm.stylelint" />
         <item itemvalue="npm.dev" />
       </list>
@@ -135,6 +149,7 @@
       <workItem from="1720951196158" duration="10236000" />
       <workItem from="1720961447175" duration="1429000" />
       <workItem from="1720963671232" duration="2802000" />
+      <workItem from="1721034615531" duration="8596000" />
     </task>
     <servers />
   </component>
